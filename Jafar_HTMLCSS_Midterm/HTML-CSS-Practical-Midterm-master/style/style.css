@@ -1,0 +1,171 @@
+/* do not touch the code below here. Start all your code at the "START YOUR CSS HERE" line. */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Nav Bar*/
+.mainNav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#111;
+  }
+  .mainNav li {
+    float: left;
+  }
+  .mainNav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .mainNav li a:hover {
+    background-color: dodgerblue;
+  }
+/* Write all your code below this line */
+/* START YOUR CSS HERE */
+
+
+body
+{
+  font-family: sans-serif;
+}
+
+.jumbotron
+{
+  
+color: white;
+padding-top: 150px;
+padding-bottom: 150px;
+margin:auto;
+text-align: center;
+font-size: 3em;
+background-image: url("../images/image1.jpg");
+}
+
+#welcomeMessage
+{
+  margin-top: 50px
+}
+/*fix the jumbotron lack of image, amd the welcome messages, find out how to make headers of ids work*/
+
+#welcomeMessage h1
+{
+ float:center;
+ font-size: 2.5em
+}
+
+#welcomeMessage h2
+{
+  margin-bottom: 10px;
+}
+
+#favoriteFoodList
+{
+  float: center;
+border: solid #111 2px;
+margin-left: 50px;
+margin-right: 50px;
+padding: 20px;
+background-color: dodgerblue;
+font-size: 20px;
+color: white;
+list-style: inside;
+}
+
+.articles
+{
+  margin: 50px;
+  border: solid #111 2px;
+}
+
+.articles h1
+{
+  color: white;
+  background-color: #111;
+  padding: 15px;
+  font-size: 36px;
+  
+}
+
+.articles p :not(aside) 
+{
+  font-weight: bold;
+}
+
+.articles aside p
+{
+color: dodgerblue;
+font-style: italic;
+}
+
+figure img
+{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.articles p figure
+{
+  padding: 15px;
+}
+ 
+.articles figcaption
+{
+  font-weight: bold;
+  font-style: italic;
+}
+
+.articles aside
+
+{
+  color: #3b3b3b;
+}
+
+.mainFooter
+
+{
+  background-color: #111;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+  font-size: 16px;
+  text-align: left;
+}
+
+.mainFooter p
+{
+  width: 200px;
+  float: left;
+ padding-left: 50px;
+ font-weight: bold;
+}
+#mailto{
+  text-align: right;
+  float: right;
+  padding-right: 50px;
+}
+.mainFooter a{
+  text-decoration: none;
+  color: dodgerblue;
+  text-align: right;
+}
+.articles h2, h3, h4{
+  text-align: center;
+  text-decoration: none;
+  color: #111;
+}
+.articles ul{
+  list-style: inside;
+  text-align: center;
+  color: white;
+  background-color: #111;
+  padding-top: 15px;
+}
+.articles iframe{
+  width: 100%;
+  height: 400px;
+}
